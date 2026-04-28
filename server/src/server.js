@@ -16,3 +16,8 @@ start().catch((error) => {
   process.exit(1);
 });
 
+console.log("ENV CHECK:", {
+  MONGO_URI: process.env.MONGO_URI ? "OK" : "MISSING",
+  JWT_SECRET: process.env.JWT_SECRET ? "OK" : "MISSING",
+  PORT: process.env.PORT
+});
