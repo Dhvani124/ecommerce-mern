@@ -2,10 +2,10 @@
   "name": "ecommerce-mern-server",
   "version": "1.0.0",
   "type": "module",
-  "main": "src/server.js",
+  "main": "server.js",
   "scripts": {
     "dev": "nodemon src/server.js",
-    "start": "node src/server.js",
+    "start": "node server.js",
     "seed": "node src/data/seed.js",
     "create-admin": "node src/create-admin.js"
   },
