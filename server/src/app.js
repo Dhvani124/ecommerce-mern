@@ -43,6 +43,3 @@ app.use("/api/payments", paymentRoutes);
 
 app.use(notFound);
 app.use(errorHandler);
-app.get("/", (req, res) => {
-  res.send("Ecommerce API Running 🚀");
-});
